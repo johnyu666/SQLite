@@ -18,3 +18,9 @@
 `sqlite>.header on`
 ## 格式化查询（列对齐）
 `sqlite>.mode column`
+## 有关时间日期的函数
+``` sql
+select date('2019-09-09');
+select time('13:12:23');
+select datetime('2019-09-09 13:23:11');
+```
